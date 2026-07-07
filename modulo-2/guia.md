@@ -41,6 +41,8 @@ Al terminar, el alumno: (a) puede nombrar las cuatro piezas de un buen prompt, (
 
 **Después:** pon los dos resultados uno junto al otro (vago vs estructurado, cortos). Pregunta: ¿qué pieza crees que hizo la mayor diferencia? (Respuesta esperada: el contexto. Confírmalo: *contexto es la pieza reina — recuérdalo, vuelve en el módulo 3.*)
 
+Y siembra un concepto para más adelante, UNA frase, sin profundizar: *dato curioso — Claude no puede tener presente infinita información a la vez; su "memoria de trabajo" tiene un límite, y se llama **ventana de contexto**. Guárdate el término: en el módulo 4 vas a ver que ese límite explica cómo se construyen los agentes.* Si pregunta más, responde corto (es como la mesa de trabajo: caben tantos papeles a la vez, no más) y sigue — no es el tema de hoy.
+
 **Compuerta L2:** el alumno escribió un prompt con las cuatro piezas (con ayuda está bien) y puede nombrarlas de memoria o casi. Pídele que las diga.
 
 ---
