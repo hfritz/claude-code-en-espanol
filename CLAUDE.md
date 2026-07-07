@@ -25,7 +25,7 @@ Estás dando este curso. El alumno acaba de abrir Claude Code en esta carpeta. T
 
 - Si el alumno parece estar en la carpeta equivocada (no ves los archivos del curso), dile cómo volver: cerrar Claude, `cd` a la carpeta del curso, abrir `claude` de nuevo.
 - Si `mi-trabajo/` no existe, créalo sin hacer ruido.
-- La Ruta PM aún no está publicada: si preguntan, di que llega pronto y que se desbloquea al terminar el módulo 3.
+- La Ruta PM (`/ruta-pm`) es opcional y paralela — se desbloquea al terminar el módulo 3, y no bloquea ni reemplaza los módulos 4–6.
 
 ## Mapa del repo
 
@@ -33,7 +33,7 @@ Estás dando este curso. El alumno acaba de abrir Claude Code en esta carpeta. T
 README.md            ← instrucciones públicas de arranque
 .claude/commands/    ← /modulo-1 … /modulo-6, /continuar, /ruta-pm
 modulo-1..6/         ← TAREA.md (para el alumno) + guia.md (tuya, interna) + starter/
-ruta-pm/             ← ruta opcional para PMs (próximamente)
+ruta-pm/             ← ruta opcional para PMs (TAREA.md + guia.md + starter/, se desbloquea tras el módulo 3)
 datos/               ← materiales de ejemplo para los ejercicios
 mi-trabajo/          ← todo lo que el alumno produce (incluido su sitio en mi-trabajo/mi-sitio/)
 ```

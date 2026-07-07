@@ -1,5 +1,5 @@
-# Ruta PM — próximamente
+# Ruta PM
 
-Ruta opcional para product managers: discovery, investigación de clientes, generación de PRDs e historias de usuario, estrategia de producto y análisis de datos. Se desbloquea al terminar el módulo 3.
+Ruta opcional y paralela al curso principal, para product managers. Se desbloquea al terminar el módulo 3 (skills). Ver `TAREA.md` para el contenido completo.
 
-*(En construcción — se publica después del beta del curso principal.)*
+Para empezar: `/ruta-pm`

@@ -41,7 +41,7 @@ Eso es todo. A partir de ahí, Claude te guía. Si en algún momento no sabes qu
 
 ## Al terminar
 
-Publica tu sitio en la **galería del curso** (Discussions de este repo) y compártelo con el hashtag **#CCenEspañol**. Nos encanta ver lo que construyes.
+Publica tu sitio en la **galería del curso** (Discussions de este repo) y compártelo con el hashtag **#CCenEspañol**. Me encanta ver lo que construyes.
 
 ---
 
@@ -49,4 +49,4 @@ Publica tu sitio en la **galería del curso** (Discussions de este repo) y comp�
 
 Creado por [Helmut Fritz](https://helmutfritz.fyi/) · [LinkedIn](https://linkedin.com/in/hfritz) · [Builder Feed](https://builder-feed.helmutfritz.fyi/)
 
-Proyecto educativo independiente, construido con Claude Code. No afiliado a Anthropic.
+Proyecto educativo independiente sin ánimo de lucro, construido con Claude Code. No afiliado a Anthropic.
