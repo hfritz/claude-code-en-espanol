@@ -1,0 +1,3 @@
+mi-trabajo/*
+!mi-trabajo/.gitkeep
+.DS_Store

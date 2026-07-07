@@ -1,0 +1,52 @@
+# Claude Code en Español: De Cero a AI Product Builder
+
+Un curso gratuito y práctico, enseñado **dentro de Claude Code** y en español. No hay videos: aprendes haciendo, con Claude como tu guía, y terminas publicando tu propio sitio personal en internet.
+
+## ¿Qué vas a aprender?
+
+Los conceptos centrales para construir con IA — explicados de verdad, uno a la vez:
+
+| Módulo | Tema | Al terminar tendrás |
+|--------|------|---------------------|
+| 1 | Fundamentos | Tu espacio de trabajo listo y tus primeras notas personales |
+| 2 | Prompts que funcionan | El "sobre mí" de tu sitio, escrito con un buen prompt |
+| 3 | Skills | Una skill que genera secciones de tu sitio |
+| 4 | Agentes y subagentes | Un agente que arma el contenido de tu sitio |
+| 5 | Orquestación | El contenido completo de tu sitio, producido por tu equipo de agentes |
+| 6 | Publicar | **Tu sitio personal, en vivo, con URL propia** 🚀 |
+
+Además: **Ruta PM** (próximamente) — una ruta opcional para product managers: discovery, PRDs, historias de usuario, estrategia y análisis de datos.
+
+## ¿Para quién es?
+
+Para personas que no son ingenieras: product managers, fundadores, diseñadores, profesionales curiosos. No necesitas saber programar. No necesitas haber usado una terminal.
+
+## ¿Qué necesitas?
+
+- Una computadora (Mac, Windows o Linux).
+- **Una suscripción de Claude** (plan Pro o superior — es de pago). El curso es gratuito, pero Claude Code, la herramienta donde se enseña, requiere suscripción. Preferimos decírtelo aquí y ahora, no en el módulo 1.
+- 30–60 minutos por módulo, a tu ritmo.
+
+## Cómo empezar
+
+1. **Instala Claude Code** → sigue la guía oficial en [claude.com/claude-code](https://claude.com/claude-code). *(¿Windows? Lee primero `GUIA-WINDOWS.md`.)*
+2. **Descarga este repositorio**: botón verde "Code" → "Download ZIP" (o `git clone` si ya conoces git). Descomprime y recuerda dónde quedó la carpeta.
+3. **Abre la terminal en esta carpeta** (la guía de instalación te enseña cómo).
+4. Escribe `claude` y presiona Enter. La primera vez te pedirá confiar en la carpeta e iniciar sesión — di que sí, es normal.
+5. Escribe `/modulo-1` y presiona Enter.
+
+Eso es todo. A partir de ahí, Claude te guía. Si en algún momento no sabes qué hacer, escribe: `estoy perdido, ¿qué sigue?`
+
+¿Vuelves después de unos días? Escribe `/continuar` y retomas donde quedaste.
+
+## Al terminar
+
+Publica tu sitio en la **galería del curso** (Discussions de este repo) y compártelo con el hashtag **#CCenEspañol**. Nos encanta ver lo que construyes.
+
+---
+
+*Versión de especificación: v0.1 · Probado con Claude Code en julio 2026*
+
+Creado por [Helmut Fritz](https://helmutfritz.fyi/) · [LinkedIn](https://linkedin.com/in/hfritz) · [Builder Feed](https://builder-feed.helmutfritz.fyi/)
+
+Proyecto educativo independiente, construido con Claude Code. No afiliado a Anthropic.
