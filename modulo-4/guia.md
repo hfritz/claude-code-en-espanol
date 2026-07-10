@@ -27,7 +27,7 @@ Al terminar, el alumno tiene: un subagente propio (`armador-de-contenido`) que a
 
 ## Lección 2 — La ventana de contexto (15–20 min)
 
-**Retoma la semilla del módulo 2:** *dijimos que Claude tiene un límite de memoria de trabajo — hoy vemos qué significa de verdad y por qué te importa.*
+**Retoma la semilla del módulo 2:** *dijimos que Claude tiene un límite de memoria de trabajo — ahora vemos qué significa de verdad y por qué te importa.*
 
 **Concepto, en capas (una capa por respuesta):**
 
@@ -64,12 +64,28 @@ Al terminar, el alumno tiene: un subagente propio (`armador-de-contenido`) que a
 
 ---
 
+## Extra opcional — Conecta una herramienta real (MCP)
+
+**Concepto:** en una frase — *MCP (Model Context Protocol) es la forma en que Claude se conecta a servicios reales — tu correo, tu calendario, bases de datos — para que un agente los use como herramienta, sin que tengas que programar la conexión.*
+
+Retoma la pieza "Herramientas" de la Lección 1: hoy tu subagente solo tiene Read y Write (archivos). En el mundo real, las herramientas de un agente pueden ser mucho más amplias — MCP es el mecanismo que lo permite.
+
+**Si el alumno quiere probarlo (totalmente opcional — no bloquea el módulo, no pide nada si no le interesa):**
+1. Fuera de Claude Code, en claude.ai, ve a Configuración → Conectores.
+2. Conecta Gmail (o cualquier otro servicio que ya use — Calendar, Drive).
+3. Vuelve a esta conversación y escribe `/mcp` para confirmar que la conexión está activa.
+4. Pruébalo con algo simple: "¿tengo correos importantes sin leer hoy?" o "resume mi bandeja de entrada."
+
+**Nota para ti (el tutor):** esto es un extra, no una lección con compuerta. Si el alumno no tiene Gmail, no le interesa, no puede autenticar, o el conector falla — no insistas, sigue directo al cierre del módulo. El objetivo es solo que sepa que MCP existe y cómo se llama; no es requisito para nada de lo que viene después en el curso.
+
+---
+
 ## Compuerta de cierre del módulo
 
 1. Verifica la checklist de L3.
 2. Actualiza `mi-trabajo/progreso.md`: módulo 4 completado, fecha, artefactos (`armador-de-contenido.md`, `paquete-de-contenido.md`).
 3. Recapitula en 3 líneas: anatomía de un agente (cerebro, objetivo, herramientas, memoria); la ventana de contexto tiene límite; los subagentes existen para no cargar todo en una sola ventana.
-4. Anticipa el módulo 5 en una frase: *hoy tuviste UN subagente. ¿Qué pasa si tienes varios trabajando a la vez, y alguien coordina el resultado? Eso es orquestación.* Sin más detalle.
+4. Anticipa el módulo 5 en una frase: *Ahora tuviste UN subagente. ¿Qué pasa si tienes varios trabajando a la vez, y alguien coordina el resultado? Eso es orquestación.* Sin más detalle.
 5. Cierra: `👉 escribe: /modulo-5` (o `/continuar` para parar aquí).
 
 ---
@@ -84,3 +100,4 @@ Al terminar, el alumno tiene: un subagente propio (`armador-de-contenido`) que a
 | El subagente no se activa | `description` vaga, o no delegó explícitamente | Revisa la `description` juntos; pídele que sea más directo en la petición ("arma el paquete de contenido de mi sitio") |
 | El subagente inventa contenido que no está en las notas | Cerebro/objetivo no reforzó "organizar, no inventar" | Edita `armador-de-contenido.md` para reforzar la restricción |
 | Pregunta si el subagente "es otra IA distinta" | Curiosidad legítima | Aclara: es el mismo Claude, pero arrancado con instrucciones propias y una ventana de contexto vacía — no es "otra empresa" ni "otro modelo" necesariamente, es una instancia separada con su propio enfoque |
+| El conector de Gmail no conecta / no tiene cuenta de Google | Es un extra opcional, no todos lo tendrán listo | Recuérdale que es 100% opcional — no bloquea nada. Sigue directo al cierre del módulo |

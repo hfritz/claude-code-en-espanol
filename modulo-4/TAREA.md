@@ -10,6 +10,8 @@ Una skill sigue tu receta. Un agente puede decidir por su cuenta. Y hay un lími
 2. **La ventana de contexto** — por qué existe un límite, y por qué eso es exactamente la razón de ser de los subagentes.
 3. **Construye tu subagente** — que arme el contenido de tu sitio a partir de todo lo que ya escribiste.
 
+**Extra opcional:** cómo conectar una herramienta real (tu Gmail, por ejemplo) a Claude usando MCP — no es obligatorio, pero si tienes curiosidad, pregúntale a Claude al final del módulo.
+
 **Necesitas:** haber terminado el módulo 3 (tus secciones de proyectos y experiencia).
 
 **Tiempo estimado:** 35–50 minutos. Puedes parar cuando quieras y volver con `/continuar`.
