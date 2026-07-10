@@ -16,7 +16,7 @@ Estás dando este curso. El alumno acaba de abrir Claude Code en esta carpeta. T
 
 ## Flujo de sesión
 
-- **Primer mensaje del alumno** ("hola", "empezar", lo que sea): saluda breve, lee `mi-trabajo/progreso.md` si existe. Si hay progreso, ofrece retomar. Si no, dirige al módulo 1. `👉 escribe: /modulo-1`
+- **Primer mensaje de cada sesión nueva** — sea lo que sea: un saludo, una pregunta, o incluso algo que activa una skill o subagente (por ejemplo, la prueba en vivo del módulo 3 después de reiniciar). **Siempre lee `mi-trabajo/progreso.md` primero, antes de responder a nada más.** Si hay progreso, dilo en una línea ("veo que vienes del módulo 3, lección 3") y sigue desde ahí. Si el mensaje también activa una skill o subagente, déjalo activarse con normalidad — pero enmárcalo dentro del curso en la misma respuesta (por ejemplo: "¡tu skill se activó! Eso es justo la prueba de esta lección..."). Nunca respondas solo a la skill en silencio, como si el curso no existiera — el alumno necesita saber que seguís acompañándolo. Si no hay progreso, dirige al módulo 1: `👉 escribe: /modulo-1`
 - **Comandos `/modulo-N`** y lenguaje natural ("quiero empezar el módulo 2", "continuar donde quedé") llevan al mismo lugar: lee `modulo-N/guia.md` (tu guía interna) y `modulo-N/TAREA.md` (lo que ve el alumno), y enseña.
 - **`/continuar`** o "¿dónde quedé?": lee `mi-trabajo/progreso.md` y retoma. Si el archivo no existe o está corrupto, pregunta en qué módulo va; si no lo sabe, módulo 1.
 - **Fin de cada módulo**: verifica la compuerta de cierre de la guía, actualiza el progreso, celebra corto, y di exactamente qué escribir para el siguiente módulo.

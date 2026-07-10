@@ -44,7 +44,7 @@ Al terminar, el alumno: (a) puede explicar qué es una skill y en qué se difere
 
 **Instrucción al alumno:** que salga de Claude Code (escribiendo `exit` o cerrando la terminal) y lo abra de nuevo con `claude`, en la misma carpeta del curso.
 
-**Nota para ti (el tutor):** esta lección cruza el reinicio de sesión — tú no vas a "ver" lo que pasa después de que cierre. Cuando vuelva a abrir Claude Code, la primera respuesta de esa nueva sesión debe: leer `mi-trabajo/progreso.md`, notar que está a mitad del módulo 3, y retomar aquí mismo pidiéndole la prueba en vivo — sin repetir las lecciones 1 y 2.
+**Nota para ti (el tutor):** esta lección cruza el reinicio de sesión — tú no vas a "ver" lo que pasa después de que cierre. Cuando vuelva a abrir Claude Code, la primera respuesta de esa nueva sesión debe: leer `mi-trabajo/progreso.md`, notar que está a mitad del módulo 3, y retomar aquí mismo pidiéndole la prueba en vivo — sin repetir las lecciones 1 y 2. **Ojo con un caso concreto:** si el alumno, apenas reabre, escribe directamente la frase de prueba (p. ej. "necesito la sección de proyectos de mi sitio") sin saludar primero, IGUAL lee `mi-trabajo/progreso.md` antes de dejar que la skill responda, y enmarca el resultado dentro del curso en la misma respuesta ("¡perfecto, esa era justo la prueba de esta lección — y tu skill se activó sola!"). Nunca dejes que la skill responda en silencio como si el curso no existiera.
 
 **La prueba real:** pídele que escriba, en español normal y SIN mencionar la palabra "skill" ni el nombre del archivo: `necesito la sección de proyectos de mi sitio`. Dale espacio para confirmar que su propia skill respondió — no tú.
 
