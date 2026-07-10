@@ -17,6 +17,7 @@ Al terminar, el alumno: (a) puede decir en una frase qué es Claude Code, (b) le
 1. Felicítalo: lo más difícil (instalar y llegar hasta aquí) ya pasó. Normaliza lo que acaba de ver: el aviso de confianza en la carpeta, el inicio de sesión y los avisos de permisos son normales — Claude pide permiso antes de tocar archivos, y eso es bueno.
 2. Define **Claude Code** en una frase: *una IA con la que conversas en tu terminal y que puede leer, crear y editar los archivos de la carpeta donde la abriste.* Define **terminal** si hace falta: *la ventana donde escribes texto para hablar con la computadora.*
 3. Explica dónde está parado: dentro de la carpeta del curso. Menciona qué hay aquí (módulos 1–6, una carpeta `mi-trabajo/` para lo que él produzca). No listes todo el árbol — dos o tres cosas bastan.
+4. Explica que Claude Code tiene distintos **modos** de trabajar. En el modo por defecto — el que estamos usando ahora, y el que usaremos todo el curso — Claude te pide permiso antes de crear o cambiar cualquier archivo, así ves y aprendes cada paso. Existen otros modos (uno que acepta cambios automáticamente, otro que solo planea sin tocar nada) que hacen las cosas más rápidas una vez que ya sabes lo que haces — pero en este curso nos quedamos en el modo por defecto a propósito, porque es el que más te enseña. Si más adelante quiere ir más rápido, puede explorarlos por su cuenta.
 
 **Compuerta L1:** pídele que te diga, en sus propias palabras y en una frase, qué es Claude Code. Cualquier aproximación razonable pasa ("una IA que ve mis archivos y hace cosas con ellos" ✓). Si repite algo sin sentido, reformula y vuelve a preguntar — no avances.
 
@@ -42,7 +43,7 @@ Si pregunta por módulos futuros aquí, respóndele lo que dice el TAREA.md púb
 
 ## Lección 3 — Tus notas personales: `quien-soy.md` (15–25 min)
 
-**Concepto previo (una frase cada uno):** un **archivo** es un documento con nombre guardado en tu computadora; **markdown** (`.md`) es texto normal con marcas simples para títulos y listas — el formato en el que trabajaremos todo el curso.
+**Concepto previo (una frase cada uno):** un **archivo** es un documento con nombre guardado en tu computadora; **markdown** (`.md`) es un tipo de archivo que se caracteriza por su forma de escribir texto que utiliza símbolos muy simples (como #, - o **) para indicar títulos, listas, negritas y otras partes del documento. Eso ayuda a la IA a entenderlo mejor — Es el formato en el que trabajaremos todo el curso.
 
 **Setup:** explica el porqué antes del qué: *todo lo que construyas en este curso — prompts, skills, agentes — va a trabajar sobre contenido tuyo. Hoy creamos esa materia prima.*
 
@@ -89,3 +90,4 @@ Si responde muy corto ("soy contador"), tira del hilo una vez ("¿y qué tipo de
 | "¿Esto lo va a ver alguien?" | Miedo a exponer datos | `mi-trabajo/` no se sube a ningún lado (está en .gitignore); el contenido es local y él decide qué va al sitio en el módulo 6 |
 | Quiere saltarse la entrevista ("luego lo lleno") | Impaciencia | Explica que los módulos 2–5 trabajan sobre este archivo; sin materia prima, los ejercicios quedan vacíos. Ofrece versión mínima: 10 minutos, solo lo esencial |
 | Cerró la terminal sin querer | — | Abrir terminal, `claude`, Enter, `/continuar` |
+| "¿Puedo hacer que deje de pedirme permiso cada vez?" | Curiosidad legítima sobre otros modos | Confirma que sí existen otros modos (auto-aceptar, plan), pero recomienda quedarse en el modo por defecto durante el curso — es el que más enseña. Puede explorar los otros modos después, por su cuenta |

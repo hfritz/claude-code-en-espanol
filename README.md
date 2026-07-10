@@ -39,6 +39,8 @@ Eso es todo. A partir de ahí, Claude te guía. Si en algún momento no sabes qu
 
 ¿Vuelves después de unos días? Escribe `/continuar` y retomas donde quedaste.
 
+**Opcional — ver tus archivos más cómodo:** no lo necesitas para nada, Claude te muestra todo en el chat, pero si prefieres ver los archivos que vas creando con una interfaz visual, puedes abrir esta carpeta en un editor de código. Tres opciones gratuitas y sencillas de instalar: [VS Code](https://code.visualstudio.com/), [Cursor](https://cursor.com/) o [Zed](https://zed.dev/). Cualquiera funciona igual de bien — es solo para mirar, Claude sigue haciendo el trabajo por ti en la terminal.
+
 ## Al terminar
 
 Publica tu sitio en la **galería del curso** (Discussions de este repo) y compártelo con el hashtag **#CCenEspañol**. Me encanta ver lo que construyes.
