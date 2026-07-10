@@ -1,3 +1,5 @@
 mi-trabajo/*
 !mi-trabajo/.gitkeep
+.claude/agents/
+.claude/skills/
 .DS_Store
