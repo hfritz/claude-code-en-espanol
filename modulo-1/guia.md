@@ -17,7 +17,7 @@ Al terminar, el alumno: (a) puede decir en una frase qué es Claude Code, (b) le
 1. Felicítalo: lo más difícil (instalar y llegar hasta aquí) ya pasó. Normaliza lo que acaba de ver: el aviso de confianza en la carpeta, el inicio de sesión y los avisos de permisos son normales — Claude pide permiso antes de tocar archivos, y eso es bueno.
 2. Define **Claude Code** en una frase: *una IA con la que conversas en tu terminal y que puede leer, crear y editar los archivos de la carpeta donde la abriste.* Define **terminal** si hace falta: *la ventana donde escribes texto para hablar con la computadora.*
 3. Explica dónde está parado: dentro de la carpeta del curso. Menciona qué hay aquí (módulos 1–6, una carpeta `mi-trabajo/` para lo que él produzca). No listes todo el árbol — dos o tres cosas bastan.
-4. Explica que Claude Code tiene distintos **modos** de trabajar. En el modo por defecto — el que estamos usando ahora, y el que usaremos todo el curso — Claude te pide permiso antes de crear o cambiar cualquier archivo, así ves y aprendes cada paso. Existen otros modos (uno que acepta cambios automáticamente, otro que solo planea sin tocar nada) que hacen las cosas más rápidas una vez que ya sabes lo que haces — pero en este curso nos quedamos en el modo por defecto a propósito, porque es el que más te enseña. Si más adelante quiere ir más rápido, puede explorarlos por su cuenta.
+4. Explica que Claude Code tiene distintos **modos** de trabajar. En el modo por defecto — el que estamos usando ahora, y el que usaremos todo el curso — Claude te pide permiso antes de crear o cambiar cualquier archivo, así ves y aprendes cada paso. Existen otros modos (uno que acepta cambios automáticamente, otro que solo planea sin tocar nada) que hacen las cosas más rápidas una vez que ya sabes lo que haces — pero en este curso nos quedamos en el modo por defecto a propósito, porque es el que más te enseña. Si más adelante quiere ir más rápido, puedes explorarlos por tu cuenta.
 
 **Compuerta L1:** pídele que te diga, en sus propias palabras y en una frase, qué es Claude Code. Cualquier aproximación razonable pasa ("una IA que ve mis archivos y hace cosas con ellos" ✓). Si repite algo sin sentido, reformula y vuelve a preguntar — no avances.
 
@@ -60,12 +60,15 @@ Si responde muy corto ("soy contador"), tira del hilo una vez ("¿y qué tipo de
 
 **Escritura:** crea `mi-trabajo/quien-soy.md` con sus respuestas organizadas bajo títulos markdown (`## Quién soy`, `## Proyectos y logros`, `## Habilidades`, `## Personal`, `## Enlaces`, `## Mi sitio es para`). Escríbelo con sus palabras, no con adornos tuyos. Muéstrale el contenido completo en el chat y dile dónde quedó el archivo.
 
+**Cómo "llamar" este archivo después:** ahora que `quien-soy.md` existe, enséñale a referirse a él sin escribir la ruta completa a mano — escribe `@` seguido de las primeras letras del nombre (`@quien`) y Claude Code sugiere el archivo; Enter o clic lo inserta en el mensaje. Pídele que lo pruebe ahora mismo, por ejemplo preguntando algo como `@quien-soy.md ¿qué dice ahí sobre mis habilidades?`. Dile explícitamente: *esto es lo que vas a usar en todos los módulos que siguen para decirle a Claude sobre qué archivo trabajar — vale la pena que te quede cómodo.*
+
 **Cierre del ejercicio:** pídele que lo lea y corrija lo que no suene a él — puede pedirte los cambios en lenguaje natural (eso también es la lección). Aplica los cambios.
 
 **Compuerta L3 (checklist):**
 - [ ] `mi-trabajo/quien-soy.md` existe y tiene contenido real (no placeholder).
 - [ ] Tiene al menos: quién es, 2+ proyectos/logros, y para quién es el sitio.
 - [ ] El alumno confirmó explícitamente que se reconoce en el texto.
+- [ ] El alumno probó referirse al archivo con `@quien-soy.md` al menos una vez.
 
 ---
 
