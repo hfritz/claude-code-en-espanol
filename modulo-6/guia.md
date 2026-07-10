@@ -32,13 +32,15 @@ Al terminar, el alumno tiene su sitio personal publicado en una URL real de inte
 
 **Concepto:** define **vibe coding** en una frase — *en vez de escribir estilos línea por línea, le describes a Claude cómo quieres que se vea o se sienta tu sitio, ves el resultado, y ajustas hablando — igual que iteraste tu "sobre mí" en el módulo 2, pero ahora con diseño.*
 
-**Preguntas para arrancar (una a la vez, sin ametrallar):**
+**Preguntas para arrancar — haz las tres, cada una en su propio turno (espera la respuesta antes de pasar a la siguiente). No apliques ningún cambio de estilo habiendo preguntado solo la primera — las tres alimentan las clases de Tailwind que vas a usar:**
 
 - ¿Qué colores te representan? (si no sabe, ofrece 2–3 direcciones simples: "minimalista con un solo color de acento", "cálido con tipografía grande", "oscuro y elegante")
 - ¿Hay algún sitio que te guste visualmente, tuyo o de alguien más? (opcional — si no tiene, sigue sin problema con lo anterior)
 - ¿Serio/profesional o más personal/informal?
 
-**Aplica los cambios con clases de Tailwind** directamente en el HTML: colores de fondo y texto, tipografía, espaciado, formas de botones y tarjetas. Cambia, guarda, y dile que recargue el navegador (F5) para ver el resultado.
+Excepción: si una respuesta ya cubre dos o tres preguntas a la vez (por ejemplo, menciona colores y tono en la misma frase), no la repitas — salta directo a la que falte, o si ya están las tres, sigue.
+
+**Aplica los cambios con clases de Tailwind** directamente en el HTML: colores de fondo y texto, tipografía, espaciado, formas de botones y tarjetas. Cambia, guarda, y dile que recargue el navegador para ver el resultado.
 
 **El ciclo es el mensaje:** pide un cambio → aplica → recarga y mira → ajusta. Repite 2–4 veces. Si a la primera dice que le encanta, está perfecto — no lo obligues a iterar por iterar.
 
