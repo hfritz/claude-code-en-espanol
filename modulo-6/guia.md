@@ -32,15 +32,22 @@ Al terminar, el alumno tiene su sitio personal publicado en una URL real de inte
 
 **Concepto:** define **vibe coding** en una frase — *en vez de escribir estilos línea por línea, le describes a Claude cómo quieres que se vea o se sienta tu sitio, ves el resultado, y ajustas hablando — igual que iteraste tu "sobre mí" en el módulo 2, pero ahora con diseño.*
 
-**Preguntas para arrancar — haz las tres, cada una en su propio turno (espera la respuesta antes de pasar a la siguiente). No apliques ningún cambio de estilo habiendo preguntado solo la primera — las tres alimentan las clases de Tailwind que vas a usar:**
+**Preguntas para arrancar — haz las tres, cada una en su propio turno (espera la respuesta antes de pasar a la siguiente). No apliques ningún cambio de estilo habiendo preguntado solo la primera — las tres alimentan el plan de diseño del siguiente paso:**
 
-- ¿Qué colores te representan? (si no sabe, ofrece 2–3 direcciones simples: "minimalista con un solo color de acento", "cálido con tipografía grande", "oscuro y elegante")
-- ¿Hay algún sitio que te guste visualmente, tuyo o de alguien más? (opcional — si no tiene, sigue sin problema con lo anterior)
+- ¿Qué colores te representan?
+- ¿Hay algún sitio que te guste visualmente, tuyo o de alguien más? Si no tiene ninguno en mente, no ofrezcas solo una etiqueta genérica ("minimalista", "oscuro y elegante") — describe 2–3 direcciones concretas y distintas entre sí, cada una con un color y una sensación (ejemplo: "verde bosque oscuro con tipografía grande y mucho espacio en blanco, se siente como una revista de diseño" vs. "crema cálido con un solo acento en terracota, se siente hecho a mano"), para que elija sobre algo real, no sobre una palabra suelta.
 - ¿Serio/profesional o más personal/informal?
 
 Excepción: si una respuesta ya cubre dos o tres preguntas a la vez (por ejemplo, menciona colores y tono en la misma frase), no la repitas — salta directo a la que falte, o si ya están las tres, sigue.
 
-**Aplica los cambios con clases de Tailwind** directamente en el HTML: colores de fondo y texto, tipografía, espaciado, formas de botones y tarjetas. Cambia, guarda, y dile que recargue el navegador para ver el resultado.
+**Antes de tocar el HTML, arma un plan de diseño corto (para ti, no hace falta mostrárselo entero al alumno — resume en una línea y sigue):**
+- **Paleta:** 4–6 colores con nombre, no solo "azul" — un fondo, un texto principal, uno o dos neutros con un toque de tinte hacia el acento (no gris puro), y UN color de acento que uses con moderación, no en todo.
+- **Tipografía:** una fuente para títulos y otra para el cuerpo del texto — real, cargada con `<link>` a Google Fonts en el `<head>` (es un sitio de verdad, no una vista previa aislada — un link normal funciona). No te quedes en la fuente por defecto del sistema; eso es lo primero que hace que un sitio se sienta "sin terminar".
+- **Layout:** una frase sobre cómo se van a componer las secciones (ejemplo: "hero grande y asimétrico, tarjetas de proyecto en grilla de dos columnas con sombra sutil al pasar el mouse").
+
+**Evita el look genérico de "sitio hecho con IA":** fuente Inter o system-default sin reemplazar, degradado morado-a-azul en el hero, `rounded-lg` en absolutamente todo, todo centrado, mismo espaciado repetido sin jerarquía. Si tu primer instinto es exactamente eso, cámbialo antes de mostrárselo al alumno.
+
+**Aplica el plan con clases de Tailwind**: paleta y tipografía primero (cambian todo el sitio de una), luego layout — contenedor de ancho consistente en cada sección, ritmo de espaciado real entre secciones (no apretado), grilla para las tarjetas de proyecto en vez de bloques apilados, estados de hover en los enlaces y tarjetas para que se sienta vivo. Cambia, guarda, y dile que recargue el navegador para ver el resultado.
 
 **El ciclo es el mensaje:** pide un cambio → aplica → recarga y mira → ajusta. Repite 2–4 veces. Si a la primera dice que le encanta, está perfecto — no lo obligues a iterar por iterar.
 
@@ -107,5 +114,6 @@ Si prefiere no compartir todavía, está bien — el curso se cierra igual con c
 | El login de Vercel pide abrir un navegador y no puede | Sesión de terminal remota o sin navegador gráfico | Vercel permite iniciar sesión con un código en vez de navegador — sigue las instrucciones que muestra la terminal |
 | Solo tiene una URL de "preview", no la definitiva | No corrió el despliegue de producción | Ejecuta el despliegue con la bandera de producción |
 | Se siente abrumado eligiendo colores/estilo en la Lección 2 | Parálisis de decisión | Ofrece 2–3 direcciones simples predefinidas (ver Lección 2) en vez de un lienzo en blanco |
+| El sitio "quedó bien pero simple/genérico" tras la Lección 2 | Se aplicaron clases de Tailwind sueltas (color por aquí, tamaño por allá) sin un plan de diseño ni tipografía propia — cae en el look por defecto de Tailwind | Rehaz con el plan de diseño completo: paleta con nombre + acento único, `<link>` a una fuente de Google Fonts real (no la del sistema), y layout con contenedor consistente y grilla para tarjetas — no solo colores |
 | Quiere agregar fotos reales | Fuera de alcance de hoy | Confirma que el sitio funciona sin fotos; agregarlas después es un ajuste simple, no bloquea publicar hoy |
 | No quiere compartir en la galería | Timidez o prisa | Respeta la decisión — el curso se cierra igual; puede compartir cuando quiera |
