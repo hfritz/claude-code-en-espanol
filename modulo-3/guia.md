@@ -52,10 +52,13 @@ Al terminar, el alumno: (a) puede explicar qué es una skill y en qué se difere
 
 Genera ambos archivos con la skill: `mi-trabajo/secciones/proyectos.md` y `mi-trabajo/secciones/experiencia.md`, a partir de `quien-soy.md`.
 
+**Esto se generaliza (dilo explícito):** *lo que acabas de construir no es solo para tu sitio — cualquier tarea que repites una y otra vez con el mismo formato es candidata a convertirse en una skill.* Dale 2–3 ejemplos concretos ajenos al curso: armar slides con el mismo patrón de diseño cada semana, resumir entrevistas de usuarios siempre con la misma estructura, convertir feedback de clientes en tickets con el mismo formato. Pregúntale: *¿se te ocurre una tarea tuya, de tu trabajo real, que repites así?* No hace falta que la construya hoy — solo que la nombre.
+
 **Compuerta L3 (checklist):**
 - [ ] `mi-trabajo/secciones/proyectos.md` existe, generado por la skill.
 - [ ] `mi-trabajo/secciones/experiencia.md` existe, generado por la skill.
 - [ ] El alumno confirmó que activó la skill con lenguaje natural, sin mencionar su nombre.
+- [ ] El alumno nombró una tarea repetitiva de su propio trabajo (fuera del curso) que podría convertir en una skill.
 
 ---
 

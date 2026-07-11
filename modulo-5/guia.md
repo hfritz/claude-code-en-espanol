@@ -26,6 +26,8 @@ Al terminar, el alumno tiene: `mi-trabajo/paquete-de-contenido-final.md` — pro
 
 **Setup:** muestra `modulo-5/starter/especialista-plantilla.md`. Ya conoce la anatomía completa (cerebro, objetivo, herramientas, memoria) del módulo 4 — esta vez va más rápido, y tú guías menos paso a paso porque ya lo sabe hacer.
 
+Cada uno de los tres mira el mismo material con un lente distinto — es la misma idea que pedirle a un par, a tu manager, y a alguien que te reporta que revisen lo mismo: cada quien nota algo diferente.
+
 **Los tres roles (defínelos, uno por respuesta, antes de que el alumno los construya):**
 
 1. **`especialista-de-contenido`** — organiza el material en secciones. El alumno puede prácticamente reusar/adaptar su `armador-de-contenido` del módulo 4 con este nuevo nombre.
@@ -46,11 +48,16 @@ Al terminar, el alumno tiene: `mi-trabajo/paquete-de-contenido-final.md` — pro
 
 **Momento pedagógico (señálalo cuando vuelvan los tres resultados):** *fíjate — no esperaste a que uno terminara para que empezara el siguiente. Los tres trabajaron a la vez, cada uno con su propia ventana, y ahora tienes los tres resultados juntos. Eso es orquestar.*
 
+**Esto se generaliza (el corazón de la lección):** *esto que acabas de hacer — pedirle a tres lentes distintos que miren lo mismo, a la vez — es exactamente lo mismo que pedirle a un par, a tu manager, y a alguien que te reporta que revisen un documento antes de mandarlo. La diferencia es que normalmente esperas días juntando esas tres opiniones por separado; aquí las tuviste en minutos, en paralelo.* Pregúntale: *¿en qué situación real de tu trabajo te serviría pedir tres lentes distintos así, en paralelo?* Dale espacio para que lo nombre — no hace falta que lo construya hoy.
+
 **Si Claude los despachó uno por uno en vez de a la vez:** no es un error del alumno — puede pasar según cómo esté formulada la petición. Sugiere reformular pidiendo explícitamente las tres cosas juntas en una sola frase, en vez de tres peticiones separadas.
 
 **Síntesis:** pide que la conversación principal junte los tres resultados en un solo archivo: `mi-trabajo/paquete-de-contenido-borrador.md` — contenido organizado + tono corregido + huecos convertidos en preguntas (que el alumno responda las que pueda, ahí mismo).
 
-**Compuerta L3:** `mi-trabajo/paquete-de-contenido-borrador.md` existe, con aportes reconocibles de los tres especialistas, y el alumno respondió al menos una de las preguntas de huecos.
+**Compuerta L3 (checklist):**
+- [ ] `mi-trabajo/paquete-de-contenido-borrador.md` existe, con aportes reconocibles de los tres especialistas.
+- [ ] El alumno respondió al menos una de las preguntas de huecos.
+- [ ] El alumno nombró una situación real de su trabajo donde le serviría pedir varios lentes en paralelo (ej. par + manager + reporte).
 
 ---
 

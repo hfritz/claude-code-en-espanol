@@ -2,7 +2,7 @@
 
 Una skill sigue tu receta. Un agente puede decidir por su cuenta. Y hay un límite invisible que explica por qué a veces conviene tener varios agentes en vez de uno solo — hoy lo descubres.
 
-**Al terminar tendrás:** un subagente propio (`armador-de-contenido`) que lee todo lo que has escrito hasta ahora y arma el paquete de contenido completo de tu sitio.
+**Al terminar tendrás:** un subagente propio (`armador-de-contenido`) que lee todo lo que has escrito hasta ahora y arma el paquete de contenido completo de tu sitio — y la misma anatomía de cuatro piezas que vas a poder reusar para cualquier agente que construyas después, en cualquier trabajo tuyo.
 
 ## Lecciones
 

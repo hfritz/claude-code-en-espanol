@@ -2,7 +2,7 @@
 
 En el módulo 2 escribiste un gran prompt... una vez. ¿Y si Claude lo recordara para siempre — y lo usara solo, cuando toca?
 
-**Al terminar tendrás:** tu primera skill funcionando (`secciones-de-sitio`) y las secciones de tu sitio (proyectos, experiencia) generadas con ella.
+**Al terminar tendrás:** tu primera skill funcionando (`secciones-de-sitio`) y las secciones de tu sitio (proyectos, experiencia) generadas con ella — y vas a entender por qué esta misma idea sirve para cualquier tarea repetitiva de tu trabajo, no solo para tu sitio.
 
 ## Lecciones
 

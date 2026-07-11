@@ -14,6 +14,8 @@ Al terminar, el alumno tiene: un subagente propio (`armador-de-contenido`) que a
 
 **Concepto:** recupera la skill del módulo 3 como punto de comparación. Una skill es una receta que **tú mismo** (el Claude de esta conversación) sigues cuando aplica. Un **agente** es distinto: define en una frase — *un agente es un Claude configurado con su propio trabajo, que puede tomar decisiones dentro de ese trabajo en vez de solo seguir una receta fija.* Un **subagente** es un agente al que la conversación principal le delega una tarea y que trabaja por su cuenta, aparte, y vuelve con un resultado.
 
+**Por qué te importa esto en tu trabajo real (una frase, sin extenderte):** *en tu trabajo esto se parece a pedirle a distintas personas que revisen lo mismo con lentes distintos — un par, tu manager, alguien que te reporta — cada quien nota algo que los demás no ven. Hoy construyes uno solo; más adelante en el curso vas a sentir lo que se siente tener varios trabajando a la vez.* No profundices más — es solo el gancho.
+
 **Anatomía en cuatro piezas — una por respuesta, con micro-ejemplo cada vez:**
 
 1. **Cerebro** — cómo piensa y qué personalidad de trabajo tiene. Ejemplo: "eres un editor cuidadoso que organiza, no inventa."
@@ -57,10 +59,13 @@ Al terminar, el alumno tiene: un subagente propio (`armador-de-contenido`) que a
 
 **Prueba real:** pídele que le delegue la tarea en lenguaje natural, por ejemplo: `arma el paquete de contenido completo de mi sitio`. Cuando el subagente responda, señala el momento pedagógico: *eso que acaba de pasar — otro "Claude" trabajó aparte, con su propia ventana, y te devolvió solo el resultado — es un subagente en acción.*
 
+**Esto se generaliza (dilo explícito):** *cerebro, objetivo, herramientas, memoria — estas cuatro piezas no son solo para `armador-de-contenido`. Cualquier agente que construyas de aquí en adelante, para cualquier trabajo tuyo, tiene esta misma forma. Lo único que cambia es el contenido de cada pieza.*
+
 **Compuerta L3 (checklist):**
 - [ ] `.claude/agents/armador-de-contenido.md` existe con las cuatro piezas completas (no la plantilla sin llenar).
 - [ ] `mi-trabajo/paquete-de-contenido.md` existe, generado por el subagente, con las secciones organizadas.
 - [ ] El alumno confirmó que reconoció la delegación (otro Claude trabajó la tarea y volvió con el resultado).
+- [ ] El alumno repitió, en sus palabras, que las cuatro piezas sirven para cualquier agente futuro, no solo para este.
 
 ---
 
@@ -85,7 +90,7 @@ Retoma la pieza "Herramientas" de la Lección 1: hoy tu subagente solo tiene Rea
 1. Verifica la checklist de L3.
 2. Actualiza `mi-trabajo/progreso.md`: módulo 4 completado, fecha, artefactos (`armador-de-contenido.md`, `paquete-de-contenido.md`).
 3. Recapitula en 3 líneas: anatomía de un agente (cerebro, objetivo, herramientas, memoria); la ventana de contexto tiene límite; los subagentes existen para no cargar todo en una sola ventana.
-4. Anticipa el módulo 5 en una frase: *Ahora tuviste UN subagente. ¿Qué pasa si tienes varios trabajando a la vez, y alguien coordina el resultado? Eso es orquestación.* Sin más detalle.
+4. Anticipa el módulo 5 en una frase: *Ahora tuviste UN subagente. ¿Qué pasa si tienes varios trabajando a la vez, cada uno con un lente distinto, y alguien coordina el resultado? Eso es orquestación.* Sin más detalle.
 5. Cierra: `👉 escribe: /modulo-5` (o `/continuar` para parar aquí).
 
 ---
