@@ -29,9 +29,13 @@ Para personas que no son ingenieras: product managers, fundadores, diseñadores,
 
 ## Cómo empezar
 
-1. **Instala Claude Code** → sigue la guía oficial en [claude.com/claude-code](https://claude.com/claude-code). *(¿Windows? Lee primero `GUIA-WINDOWS.md`.)*
+**¿Nunca has usado una terminal o instalado nada de esto?** → sigue **[GUIA-DE-INICIO.md](./GUIA-DE-INICIO.md)**. Te lleva de cero (nada instalado, cero experiencia con la terminal) a escribir `/modulo-1`, con pasos separados para Mac y Windows. ~20-30 minutos.
+
+**¿Ya tienes Claude Code instalado?** → la versión corta:
+
+1. **Instala Claude Code** → sigue la guía oficial en [claude.com/claude-code](https://claude.com/claude-code).
 2. **Descarga este repositorio**: botón verde "Code" → "Download ZIP" (o `git clone` si ya conoces git). Descomprime y recuerda dónde quedó la carpeta.
-3. **Abre la terminal en esta carpeta** (la guía de instalación te enseña cómo).
+3. **Abre la terminal en esta carpeta** — arrastra la carpeta descomprimida sobre la ventana de la terminal después de escribir `cd `.
 4. Escribe `claude` y presiona Enter. La primera vez te pedirá confiar en la carpeta e iniciar sesión — di que sí, es normal.
 5. Escribe `/modulo-1` y presiona Enter.
 
