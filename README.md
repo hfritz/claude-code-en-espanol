@@ -2,6 +2,8 @@
 
 Un curso gratuito y práctico, enseñado **dentro de Claude Code** y en español. No hay videos: aprendes haciendo, con Claude como tu guía, y terminas publicando tu propio sitio personal en internet.
 
+🌐 **Sitio del curso:** [claude-code-en-espanol.vercel.app](https://claude-code-en-espanol.vercel.app/)
+
 ## ¿Qué vas a aprender?
 
 Los conceptos centrales para construir con IA — explicados de verdad, uno a la vez:
