@@ -73,7 +73,7 @@ En la página del repositorio en GitHub, haz clic en el botón verde **"Code"** 
 ### Opción B: con git (si ya lo tienes)
 
 ```bash
-git clone <URL-del-repositorio>
+git clone https://github.com/hfritz/claude-code-en-espanol.git
 ```
 
 Esto descarga el curso a una carpeta nueva en tu ubicación actual.
