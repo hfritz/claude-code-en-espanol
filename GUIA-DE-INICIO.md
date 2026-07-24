@@ -2,13 +2,13 @@
 
 Esta guía te lleva de **nada instalado** a **escribir `/modulo-1` y empezar el curso**. No necesitas experiencia previa con la terminal ni con programación. Tiempo de lectura: ~5 minutos. Tiempo total: ~20-30 minutos, la mayoría esperando instaladores.
 
-> **Antes de empezar:** necesitas una **suscripción de Claude** (plan Pro o superior — es de pago). El curso es gratis, pero la herramienta donde se enseña, Claude Code, requiere suscripción.
+> **Antes de empezar:** necesitas una **suscripción de Claude** (plan Pro o superior, es de pago). El curso es gratis, pero la herramienta donde se enseña, Claude Code, requiere suscripción.
 
 ---
 
 ## Paso 1: Abre tu terminal
 
-La terminal es una ventana de texto donde escribes comandos en vez de hacer clic. Se siente raro la primera vez. Es normal — solo vas a escribir (o pegar) algunas líneas.
+La terminal es una ventana de texto donde escribes comandos en vez de hacer clic. Se siente raro la primera vez. Es normal, solo vas a escribir (o pegar) algunas líneas.
 
 ### En Mac
 
@@ -18,7 +18,7 @@ Deberías ver una ventana con un cursor parpadeando y texto parecido a `turnombr
 
 ### En Windows
 
-Haz clic en el menú Inicio, escribe `PowerShell` y haz clic en **Windows PowerShell** (el ícono azul, no el de administrador — el normal está bien).
+Haz clic en el menú Inicio, escribe `PowerShell` y haz clic en **Windows PowerShell** (el ícono azul, no el de administrador; el normal está bien).
 
 Deberías ver una ventana azul oscuro con un cursor parpadeando y texto como `PS C:\Users\tunombre>`. Eso es todo, ya estás dentro.
 
@@ -64,7 +64,7 @@ Deberías ver un número de versión.
 
 ## Paso 3: Descarga el curso
 
-No necesitas saber usar git — puedes descargar el curso como un archivo comprimido.
+No necesitas saber usar git: puedes descargar el curso como un archivo comprimido.
 
 ### Opción A: sin git (más simple)
 
@@ -90,7 +90,7 @@ Tu terminal debería mostrar que ahora estás dentro de esa carpeta (el nombre d
 
 > **¿No funcionó?** Puedes confirmar dónde estás con `pwd` (Mac) o `pwd` / `Get-Location` (Windows). Si el nombre de la carpeta no coincide con la del curso, repite el arrastre.
 
-> **Nota sobre carpetas ocultas:** dentro de la carpeta del curso hay una carpeta `.claude/` — el punto al inicio la hace invisible en el Finder y el Explorador por defecto. No necesitas verla ni tocarla, Claude la lee directamente. Ignórala.
+> **Nota sobre carpetas ocultas:** dentro de la carpeta del curso hay una carpeta `.claude/` (el punto al inicio la hace invisible en el Finder y el Explorador por defecto). No necesitas verla ni tocarla, Claude la lee directamente. Ignórala.
 
 ---
 
@@ -104,7 +104,7 @@ claude
 
 y presiona Enter.
 
-La primera vez te pedirá **confiar en la carpeta** (di que sí) e **iniciar sesión** — tu navegador se abrirá automáticamente. Inicia sesión con la cuenta que tiene tu suscripción, haz clic en **Autorizar**, y vuelve a la terminal.
+La primera vez te pedirá **confiar en la carpeta** (di que sí) e **iniciar sesión**: tu navegador se abrirá automáticamente. Inicia sesión con la cuenta que tiene tu suscripción, haz clic en **Autorizar**, y vuelve a la terminal.
 
 > **¿No funcionó?** Si el navegador no se abrió, copia la URL que imprimió la terminal y pégala manualmente en tu navegador. Si el login falla, confirma que usaste el correo de tu suscripción Pro.
 
