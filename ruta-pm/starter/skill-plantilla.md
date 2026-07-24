@@ -1,18 +1,18 @@
 ---
-name: [NOMBRE-DE-LA-SKILL]
-description: [AQUÍ VA EL DISPARADOR — cuándo debe activarse esta skill, en una frase concreta.]
+name: [NOMBRE-DE-LA-HABILIDAD]
+description: [AQUÍ VA EL DISPARADOR: cuándo debe activarse esta habilidad, en una frase concreta.]
 ---
 
-# [Nombre de la skill]
+# [Nombre de la habilidad]
 
 ## Qué hacer
 
-[AQUÍ VAN LOS PASOS — qué debe leer, cómo debe procesarlo, qué debe producir y dónde guardarlo.]
+[AQUÍ VAN LOS PASOS: qué debe leer, cómo debe procesarlo, qué debe producir y dónde guardarlo.]
 
 ## Formato
 
-[AQUÍ VA EL FORMATO DE SALIDA — estructura, secciones, largo.]
+[AQUÍ VA EL FORMATO DE SALIDA: estructura, secciones, largo.]
 
 ## Qué NO hace
 
-[AQUÍ VAN LOS LÍMITES — qué NO debe inventar o asumir esta skill.]
+[AQUÍ VAN LOS LÍMITES: qué NO debe inventar o asumir esta habilidad.]
