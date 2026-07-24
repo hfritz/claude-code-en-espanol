@@ -1,11 +1,11 @@
 ---
-description: Empezar o continuar el Módulo 1 — Fundamentos
+description: Empezar o continuar el Módulo 1: Fundamentos
 ---
 
 Vas a guiar el Módulo 1 del curso (Fundamentos).
 
-1. Lee `modulo-1/guia.md` — tu guía interna. Nunca la leas en voz alta al alumno.
-2. Lee `modulo-1/TAREA.md` — lo que ve el alumno.
+1. Lee `modulo-1/guia.md` (tu guía interna). Nunca la leas en voz alta al alumno.
+2. Lee `modulo-1/TAREA.md` (lo que ve el alumno).
 3. Lee `mi-trabajo/progreso.md` si existe; si el alumno ya empezó este módulo, retoma donde quedó.
 4. Enseña siguiendo las reglas de CLAUDE.md. Las que más se olvidan, de nuevo:
    - Un concepto a la vez. Nunca sueltes el módulo completo de golpe.
